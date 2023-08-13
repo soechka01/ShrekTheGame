@@ -13,7 +13,6 @@ public class PlayerLocomotion : MonoBehaviour
     public float movementSpeed = 7;
     public float rotationSpeed = 15;
 
-
     private void Awake()
     {
         _inputActions = GetComponent<InputActions>();
@@ -23,30 +22,32 @@ public class PlayerLocomotion : MonoBehaviour
 
     public void HandleAllMovement()
     {
-        HandleMovement();
-        HandleRotation();
+        CalculateMovement();
+        CalculateRotation();
     }
 
-    private void HandleMovement()
+    private void CalculateMovement()
     {
-        _moveDirection = _cameraObject.forward * _inputActions.VerticalInput;
-        _moveDirection = _moveDirection + _cameraObject.right * _inputActions.HorizontalInput;
-        _moveDirection.Normalize();
+        CalculateMoveDirection();
+        ApplyMovement();
+    }
+
+    private void CalculateMoveDirection()
+    {
+        Vector3 moveDirectionForward = _cameraObject.forward * _inputActions.VerticalInput;
+        Vector3 moveDirectionRight = _cameraObject.right * _inputActions.HorizontalInput;
+        _moveDirection = (moveDirectionForward + moveDirectionRight).normalized * movementSpeed;
         _moveDirection.y = 0;
-        _moveDirection = _moveDirection * movementSpeed;
-
-        Vector3 movementVelocity = _moveDirection;
-        _playerRigidbody.velocity = movementVelocity;
     }
 
-    private void HandleRotation()
+    private void ApplyMovement()
     {
-        Vector3 targetDirection = Vector3.zero;
+        _playerRigidbody.velocity = _moveDirection;
+    }
 
-        targetDirection = _cameraObject.forward * _inputActions.VerticalInput;
-        targetDirection = targetDirection + _cameraObject.right * _inputActions.HorizontalInput;
-        targetDirection.Normalize();
-        targetDirection.y = 0;
+    private void CalculateRotation()
+    {
+        Vector3 targetDirection = CalculateTargetDirection();
 
         if (targetDirection == Vector3.zero)
         {
@@ -57,5 +58,14 @@ public class PlayerLocomotion : MonoBehaviour
         Quaternion playerRotation = Quaternion.Slerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
 
         transform.rotation = playerRotation;
+    }
+
+    private Vector3 CalculateTargetDirection()
+    {
+        Vector3 targetDirection = _cameraObject.forward * _inputActions.VerticalInput + _cameraObject.right * _inputActions.HorizontalInput;
+        targetDirection.y = 0;
+        targetDirection.Normalize();
+
+        return targetDirection;
     }
 }

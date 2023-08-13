@@ -46,13 +46,15 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\InputActions.cs" />
+     <Compile Include="Assets\Scripts\AnimationTransition.cs" />
      <Compile Include="Assets\PlayerControls.cs" />
      <Compile Include="Assets\Scripts\PlayerLocomotion.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Folder Include="Assets" />
-     <Folder Include="Assets\Animation" />
+     <Folder Include="Assets\Animations" />
      <Folder Include="Assets\Models" />
      <Folder Include="Assets\Scenes" />
+     <Folder Include="Assets\Animations\Locomotion" />
      <Folder Include="Assets\Textures" />
      <Folder Include="Assets\Scripts" />
      <Reference Include="UnityEngine">
