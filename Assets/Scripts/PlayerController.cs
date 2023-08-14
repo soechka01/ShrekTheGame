@@ -27,5 +27,6 @@ public class PlayerController : MonoBehaviour
     private void LateUpdate()
     {
         _cameraController.HandleAllCameraMovement();
+        
     }
 }

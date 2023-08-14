@@ -17,9 +17,16 @@ public class PlayerLocomotion : MonoBehaviour
     {
         _inputActions = GetComponent<InputActions>();
         _playerRigidbody = GetComponent<Rigidbody>();
-        _cameraObject = Camera.main.transform;
+        
+        if (Camera.main != null)
+        {
+            _cameraObject = Camera.main.transform;
+        }
+        else
+        {
+            Debug.LogError("Camera not found!");
+        }
     }
-
     public void HandleAllMovement()
     {
         CalculateMovement();
@@ -34,11 +41,12 @@ public class PlayerLocomotion : MonoBehaviour
 
     private void CalculateMoveDirection()
     {
-        Vector3 moveDirectionForward = _cameraObject.forward * _inputActions.VerticalInput;
-        Vector3 moveDirectionRight = _cameraObject.right * _inputActions.HorizontalInput;
+        var moveDirectionForward = _cameraObject.forward * _inputActions.VerticalInput;
+        var moveDirectionRight = _cameraObject.right * _inputActions.HorizontalInput;
         _moveDirection = (moveDirectionForward + moveDirectionRight).normalized * movementSpeed;
         _moveDirection.y = 0;
     }
+
 
     private void ApplyMovement()
     {
@@ -47,22 +55,22 @@ public class PlayerLocomotion : MonoBehaviour
 
     private void CalculateRotation()
     {
-        Vector3 targetDirection = CalculateTargetDirection();
+        var targetDirection = CalculateTargetDirection();
 
         if (targetDirection == Vector3.zero)
         {
             targetDirection = transform.forward;
         }
       
-        Quaternion targetRotation = Quaternion.LookRotation(targetDirection);
-        Quaternion playerRotation = Quaternion.Slerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
+        var targetRotation = Quaternion.LookRotation(targetDirection);
+        var playerRotation = Quaternion.Slerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
 
         transform.rotation = playerRotation;
     }
 
     private Vector3 CalculateTargetDirection()
     {
-        Vector3 targetDirection = _cameraObject.forward * _inputActions.VerticalInput + _cameraObject.right * _inputActions.HorizontalInput;
+        var targetDirection = _cameraObject.forward * _inputActions.VerticalInput + _cameraObject.right * _inputActions.HorizontalInput;
         targetDirection.y = 0;
         targetDirection.Normalize();
 
