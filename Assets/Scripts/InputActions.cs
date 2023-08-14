@@ -6,11 +6,15 @@ public class InputActions : MonoBehaviour
 {
     private PlayerControls _playerControls;
     private Vector2 _movementInput;
+    private Vector2 _cameraInput;
     private AnimationTransition _animationTransition;
-    private float _moveAmount;
+    private float _movementAmount;
 
     public float VerticalInput { get; private set; }
     public float HorizontalInput { get; private set; }
+
+    public float cameraInputX;
+    public float cameraInputY;
 
     private void Awake()
     {
@@ -18,20 +22,30 @@ public class InputActions : MonoBehaviour
         InitializePlayerControls();
     }
 
+    private void InitializePlayerControls()
+    {
+        _playerControls = new PlayerControls();
+        _playerControls.PlayerMovement.Movement.performed += OnMovementInputPerformed;
+        _playerControls.PlayerMovement.Camera.performed += OnCameraInputPerformed;
+    }
+
+    private void OnCameraInputPerformed(InputAction.CallbackContext context)
+    {
+        _cameraInput = context.ReadValue<Vector2>();
+    }
+
     private void OnEnable()
     {
+        if (_playerControls == null)
+        {
+            InitializePlayerControls();
+        }
         _playerControls.Enable();
     }
 
     private void OnDisable()
     {
         _playerControls?.Disable();
-    }
-
-    private void InitializePlayerControls()
-    {
-        _playerControls = new PlayerControls();
-        _playerControls.PlayerMovement.Movement.performed += OnMovementInputPerformed;
     }
 
     private void OnMovementInputPerformed(InputAction.CallbackContext context)
@@ -44,18 +58,20 @@ public class InputActions : MonoBehaviour
     {
         VerticalInput = _movementInput.y;
         HorizontalInput = _movementInput.x;
-        CalculateMoveAmount();
+        cameraInputY = _cameraInput.y;
+        cameraInputX = _cameraInput.x;
+        CalculateMovementAmount();
         UpdateAnimator();
     }
 
-    private void CalculateMoveAmount()
+    private void CalculateMovementAmount()
     {
-        _moveAmount = Mathf.Clamp01(Mathf.Abs(HorizontalInput) + Mathf.Abs(VerticalInput));
+        _movementAmount = Mathf.Clamp01(Mathf.Abs(HorizontalInput) + Mathf.Abs(VerticalInput));
     }
 
     private void UpdateAnimator()
     {
-        _animationTransition.UpdateAnimatorValues(0, _moveAmount);
+        _animationTransition.UpdateAnimatorValues(0, _movementAmount);
     }
 
     public void HandleAllInputs()
@@ -63,4 +79,5 @@ public class InputActions : MonoBehaviour
         HandleMovementInput();
         // Добавьте вызовы других методов обработки ввода, если это необходимо.
     }
+
 }
