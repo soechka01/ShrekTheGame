@@ -10,6 +10,13 @@ public class AnimationTransition : MonoBehaviour
     {
         _animator = GetComponent<Animator>();
     }
+    
+    public void PlayTargetAnimation(string targetAnimation, bool isInteracting)
+    {
+        _animator.SetBool("isInteracting", isInteracting);
+        _animator.CrossFade(targetAnimation, 0.2f);
+        
+    }
 
     public void UpdateAnimatorValues(float horizontalMovement, float verticalMovement)
     {
@@ -22,10 +29,6 @@ public class AnimationTransition : MonoBehaviour
 
     private float SnapInput(float input)
     {
-        if (Mathf.Abs(input) < 0.55f)
-        {
-            return Mathf.Clamp(input, -0.5f, 0.5f);
-        }
-        return Mathf.Sign(input);
+        return Mathf.Abs(input) < 0.55f ? Mathf.Clamp(input, -0.5f, 0.5f) : Mathf.Sign(input);
     }
 }
