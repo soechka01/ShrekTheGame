@@ -45,117 +45,179 @@
     <Analyzer Include="D:\Unity\Hub\Editor\2022.3.4f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Env\Calm Water\Demo\Scripts\MouseOrbit.cs" />
+     <Compile Include="Assets\Scripts\ResetBool.cs" />
      <Compile Include="Assets\Scripts\InputActions.cs" />
-     <Compile Include="Assets\Rocks and Boulders 2\Shaders\RotateGameObject.cs" />
-     <Compile Include="Assets\Grass And Flowers Pack 1\Example Scene\SimpleTextureDrawing.cs" />
+     <Compile Include="Assets\Env\Calm Water\Demo\Scripts\SceneSwitcher.cs" />
+     <Compile Include="Assets\Env\Grass And Flowers Pack 1\Example Scene\SimpleTextureDrawing.cs" />
+     <Compile Include="Assets\SimpleJump.cs" />
      <Compile Include="Assets\Scripts\AnimationTransition.cs" />
-     <Compile Include="Assets\ResetBool.cs" />
+     <Compile Include="Assets\Env\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Scripts\CTI_Utils.cs" />
+     <Compile Include="Assets\Env\Calm Water\Scripts\MirrorReflection.cs" />
+     <Compile Include="Assets\Scripts\WaterTeleport.cs" />
+     <Compile Include="Assets\Env\Calm Water\Scripts\ImageEffect\FogControl.cs" />
      <Compile Include="Assets\Scripts\PlayerLocomotion.cs" />
+     <Compile Include="Assets\Env\Calm Water\Demo\Scripts\MaterialSwitcher.cs" />
+     <Compile Include="Assets\Env\Calm Water\Scripts\ImageEffect\UnderWaterFog.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\Env\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Scripts\CTI_CustomWind.cs" />
      <Compile Include="Assets\Scripts\PlayerControls.cs" />
      <Compile Include="Assets\Scripts\CameraController.cs" />
-     <Compile Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Scripts\CTI_CustomWind.cs" />
-     <Compile Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Scripts\CTI_Utils.cs" />
+     <Compile Include="Assets\Env\Rocks and Boulders 2\Shaders\RotateGameObject.cs" />
+     <Compile Include="Assets\Env\Calm Water\Demo\Scripts\Rotater.cs" />
+     <Compile Include="Assets\Env\Calm Water\Scripts\CameraDepthMode.cs" />
      <Folder Include="Assets" />
-     <None Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\CTI_LOD_Bark_Array_301.shader" />
-     <Folder Include="Assets\AllSkyFree\Cold Night" />
-     <Folder Include="Assets\Rocks and Boulders 2\Rocks\Source" />
-     <Folder Include="Assets\Grass And Flowers Pack 1\Ground Textures" />
-     <Folder Include="Assets\AllSkyFree\_AllSkyFreeDemoEnvironment\Materials" />
-     <Folder Include="Assets\Rocks and Boulders 2\Rocks\Source\Materials\Unity 5" />
-     <None Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\CTI_LOD_Billboard_301.shader" />
-     <Folder Include="Assets\Conifers [BOTD]\Shared Sources\Textures\Billboards\Billboard Bare" />
-     <None Include="Assets\Rocks and Boulders 2\Shaders\Blend SM2.shader" />
-     <Folder Include="Assets\Conifers [BOTD]\Shared Sources" />
+     <Folder Include="Assets\Env\Models\textures2" />
+     <None Include="Assets\Env\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\CTI_LOD_Bark_Array_301.shader" />
+     <Folder Include="Assets\Env\AllSkyFree\Cold Night" />
+     <Folder Include="Assets\Env\Rocks and Boulders 2\Rocks\Source" />
+     <Folder Include="Assets\Env\Calm Water" />
+     <Folder Include="Assets\Env\Grass And Flowers Pack 1\Ground Textures" />
+     <Folder Include="Assets\Env\Calm Water\Scripts\ImageEffect\Resources" />
+     <Folder Include="Assets\Env\Calm Water\Scripts\ImageEffect" />
+     <Folder Include="Assets\Env\GrassFlowers\Demo" />
+     <Folder Include="Assets\Env\Calm Water\Demo\Scripts" />
+     <Folder Include="Assets\Env\Calm Water\Demo\FBX\PillarWood" />
+     <Folder Include="Assets\Env\AllSkyFree\_AllSkyFreeDemoEnvironment\Materials" />
+     <Folder Include="Assets\Env\Rocks and Boulders 2\Rocks\Source\Materials\Unity 5" />
+     <None Include="Assets\Env\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\CTI_LOD_Billboard_301.shader" />
+     <Folder Include="Assets\Env\Conifers [BOTD]\Shared Sources\Textures\Billboards\Billboard Bare" />
+     <Folder Include="Assets\Env\Calm Water\Scripts\Resources" />
+     <None Include="Assets\Env\Rocks and Boulders 2\Shaders\Blend SM2.shader" />
+     <None Include="Assets\Env\Calm Water\Shaders\CalmWater - SingleSided.shader" />
+     <Folder Include="Assets\Env\Grass Pack\Materials OLD" />
+     <Folder Include="Assets\Env\Calm Water\Demo\Scenes\Island" />
+     <Folder Include="Assets\Env\Conifers [BOTD]\Shared Sources" />
      <Folder Include="Assets\Animations" />
-     <Folder Include="Assets\ADG_Textures\ground_vol1\ground5" />
-     <None Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Resources\CTI_Camera-DepthNormalTexture_301.shader" />
-     <Folder Include="Assets\ADG_Textures\ground_vol1\ground14" />
-     <Folder Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders" />
-     <Folder Include="Assets\Grass And Flowers Pack 1\Small Tree" />
-     <Folder Include="Assets\Grass And Flowers Pack 1\Flower" />
-     <Folder Include="Assets\ADG_Textures\ground_vol1\ground3" />
-     <Folder Include="Assets\Rocks and Boulders 2\Rocks" />
-     <Folder Include="Assets\AllSkyFree\_AllSkyFreeDemoEnvironment" />
-     <Folder Include="Assets\Grass And Flowers Pack 1\Example Scene\Skyboxes\Textures\Sunny1" />
-     <Folder Include="Assets\AllSkyFree\Overcast Low" />
-     <Folder Include="Assets\Models" />
-     <Folder Include="Assets\Rocks and Boulders 2\Rocks\Source\Models" />
-     <Folder Include="Assets\Conifers [BOTD]\Shared Sources\Textures\Billboards\Billboard Medium" />
-     <Folder Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Default Components" />
-     <Folder Include="Assets\ADG_Textures\ground_vol1\ground11" />
-     <None Include="Assets\Conifers [BOTD]\Conifers [BOTD] URP Readme.txt" />
-     <None Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Resources\CTI_Internal-DeferredShading.shader" />
-     <Folder Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\Sources\Billboards" />
-     <Folder Include="Assets\AllSkyFree\Cold Sunset" />
-     <Folder Include="Assets\ADG_Textures\ground_vol1\ground8" />
+     <Folder Include="Assets\Env\ADG_Textures\ground_vol1\ground5" />
+     <None Include="Assets\Env\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Resources\CTI_Camera-DepthNormalTexture_301.shader" />
+     <None Include="Assets\Env\Calm Water\Shaders\CalmWater.cginc" />
+     <Folder Include="Assets\Env\ADG_Textures\ground_vol1\ground14" />
+     <Folder Include="Assets\Env\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders" />
+     <Folder Include="Assets\Env\Grass And Flowers Pack 1\Small Tree" />
+     <Folder Include="Assets\Env\Grass Pack\Meshes" />
+     <Folder Include="Assets\Env\Grass Pack\Materials" />
+     <Folder Include="Assets\Env\Calm Water\Demo\FBX\Materials" />
+     <Folder Include="Assets\Env\Grass And Flowers Pack 1\Flower" />
+     <Folder Include="Assets\Env\ADG_Textures\ground_vol1\ground3" />
+     <Folder Include="Assets\Env\Rocks and Boulders 2\Rocks" />
+     <Folder Include="Assets\Env\AllSkyFree\_AllSkyFreeDemoEnvironment" />
+     <Folder Include="Assets\Env\Grass And Flowers Pack 1\Example Scene\Skyboxes\Textures\Sunny1" />
+     <Folder Include="Assets\Env\AllSkyFree\Overcast Low" />
+     <Folder Include="Assets\Env\Calm Water\Demo\FBX\Terrain" />
+     <Folder Include="Assets\Env\Models" />
+     <Folder Include="Assets\Env\Calm Water\Shaders" />
+     <Folder Include="Assets\Env\Rocks and Boulders 2\Rocks\Source\Models" />
+     <Folder Include="Assets\Env\Conifers [BOTD]\Shared Sources\Textures\Billboards\Billboard Medium" />
+     <Folder Include="Assets\Env\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Default Components" />
+     <Folder Include="Assets\Env\ADG_Textures\ground_vol1\ground11" />
+     <None Include="Assets\Env\Conifers [BOTD]\Conifers [BOTD] URP Readme.txt" />
+     <None Include="Assets\Env\Calm Water\Shaders\CalmWater - DoubleSided.shader" />
+     <None Include="Assets\Env\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Resources\CTI_Internal-DeferredShading.shader" />
+     <Folder Include="Assets\Env\Conifers [BOTD]\Render Pipeline Support\Built-in RP\Sources\Billboards" />
+     <Folder Include="Assets\Env\AllSkyFree\Cold Sunset" />
+     <Folder Include="Assets\Env\ADG_Textures\ground_vol1\ground8" />
+     <Folder Include="Assets\Env\Models\textures" />
+     <Folder Include="Assets\Env\Calm Water\Demo\Skyboxes\Sunny3" />
      <Folder Include="Assets\Scenes" />
-     <Folder Include="Assets\ADG_Textures\ground_vol1\ground1" />
-     <None Include="Assets\Conifers [BOTD]\Getting started.txt" />
-     <Folder Include="Assets\Conifers [BOTD]\Shared Sources\Textures\Billboards\Billboard Small" />
-     <Folder Include="Assets\AllSkyFree\Night MoonBurst" />
-     <Folder Include="Assets\ADG_Textures\ground_vol1\ground2" />
-     <Folder Include="Assets\Rocks and Boulders 2\Rocks\Source\Materials\Legacy" />
-     <Folder Include="Assets\Grass And Flowers Pack 1\Example Scene\Skyboxes\Textures" />
-     <Folder Include="Assets\ADG_Textures\ground_vol1\ground10" />
-     <None Include="Assets\Rocks and Boulders 2\Shaders\Blend SM3.shader" />
-     <Folder Include="Assets\ADG_Textures\ground_vol1\ground9" />
-     <None Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\Includes\CTI_BillboardVertex_301.cginc" />
-     <Folder Include="Assets\Grass And Flowers Pack 1" />
-     <Folder Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Scripts" />
-     <Folder Include="Assets\Grass And Flowers Pack 1\Grass" />
-     <None Include="Assets\Rocks and Boulders 2\Shaders\shader info.txt" />
+     <Folder Include="Assets\Env\ADG_Textures\ground_vol1\ground1" />
+     <Folder Include="Assets\Env" />
+     <Folder Include="Assets\Env\Grass Pack\Shaders" />
+     <None Include="Assets\Env\Conifers [BOTD]\Getting started.txt" />
+     <Folder Include="Assets\Env\GrassFlowers" />
+     <Folder Include="Assets\Env\Conifers [BOTD]\Shared Sources\Textures\Billboards\Billboard Small" />
+     <Folder Include="Assets\Env\AllSkyFree\Night MoonBurst" />
+     <Folder Include="Assets\Env\GrassFlowers\Textures" />
+     <Folder Include="Assets\Env\ADG_Textures\ground_vol1\ground2" />
+     <None Include="Assets\Env\Calm Water\Shaders\CalmWater_Helper.cginc" />
+     <Folder Include="Assets\Env\Rocks and Boulders 2\Rocks\Source\Materials\Legacy" />
+     <Folder Include="Assets\Env\Grass And Flowers Pack 1\Example Scene\Skyboxes\Textures" />
+     <None Include="Assets\Env\Calm Water\WARNING - UPDATING WILL BREAK YOUR MATERIALS.txt" />
+     <Folder Include="Assets\Env\ADG_Textures\ground_vol1\ground10" />
+     <Folder Include="Assets\Env\Calm Water\Demo\FBX\PillarWood\Materials" />
+     <None Include="Assets\Env\Rocks and Boulders 2\Shaders\Blend SM3.shader" />
+     <Folder Include="Assets\Env\GrassFlowers\Textures\Ground" />
+     <Folder Include="Assets\Env\ADG_Textures\ground_vol1\ground9" />
+     <Folder Include="Assets\Env\Calm Water\Demo\FX\LensFlare" />
+     <Folder Include="Assets\Env\Calm Water\Demo\Textures" />
+     <Folder Include="Assets\Env\Calm Water\Demo\Skyboxes" />
+     <None Include="Assets\Env\Calm Water\Scripts\ImageEffect\Resources\UnderWaterFog.shader" />
+     <None Include="Assets\Env\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\Includes\CTI_BillboardVertex_301.cginc" />
+     <Folder Include="Assets\Env\Grass And Flowers Pack 1" />
+     <Folder Include="Assets\Env\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Scripts" />
+     <Folder Include="Assets\Env\Grass And Flowers Pack 1\Grass" />
+     <Folder Include="Assets\Env\Grass Pack\Textures" />
+     <Folder Include="Assets\Env\Calm Water\Demo\FBX\Terrain\Materials" />
+     <None Include="Assets\Env\Calm Water\Shaders\ProjectorCaustics.shader" />
+     <None Include="Assets\Env\Rocks and Boulders 2\Shaders\shader info.txt" />
+     <Folder Include="Assets\Env\Calm Water\Demo\Materials" />
      <Folder Include="Assets\Animations\Locomotion" />
-     <None Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\Includes\CTI_TranslucentLighting_301.cginc" />
-     <Folder Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Default Components\Resources" />
-     <None Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\CTI_LOD_Bark_301.shader" />
-     <None Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Resources\CTI_Internal-DeferredReflections.shader" />
-     <Folder Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP" />
-     <Folder Include="Assets\AllSkyFree" />
-     <Folder Include="Assets\Conifers [BOTD]" />
-     <Folder Include="Assets\Conifers [BOTD]\Shared Sources\Textures" />
-     <None Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\Includes\CTI_indirect.cginc" />
-     <Folder Include="Assets\ADG_Textures\ground_vol1\ground6" />
-     <Folder Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components" />
-     <Folder Include="Assets\AllSkyFree\Space_AnotherPlanet" />
-     <None Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\CTI_LOD_Leaves_301.shader" />
-     <Folder Include="Assets\Rocks and Boulders 2\Demo" />
-     <Folder Include="Assets\ADG_Textures\ground_vol1\ground4" />
-     <Folder Include="Assets\Rocks and Boulders 2\Rocks\Prefabs_snow" />
-     <Folder Include="Assets\_TerrainAutoUpgrade" />
-     <Folder Include="Assets\ADG_Textures" />
-     <Folder Include="Assets\ADG_Textures\ground_vol1\ground7" />
-     <Folder Include="Assets\Conifers [BOTD]\Shared Sources\Meshes" />
-     <Folder Include="Assets\ADG_Textures\Demo" />
-     <Folder Include="Assets\ADG_Textures\ground_vol1\ground13" />
-     <Folder Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\Sources\Materials" />
-     <Folder Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\Demo" />
-     <Folder Include="Assets\Conifers [BOTD]\Shared Sources\Textures\Billboards\Billboard Tall" />
-     <None Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\Includes\CTI_Builtin4xTreeLibraryTumbling_301.cginc" />
-     <None Include="Assets\Grass And Flowers Pack 1\Example Scene\Skyboxes\_skybox info.txt" />
-     <Folder Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Resources" />
-     <Folder Include="Assets\Grass And Flowers Pack 1\Bush" />
-     <Folder Include="Assets\ADG_Textures\ground_vol1\ground12" />
-     <Folder Include="Assets\Rocks and Boulders 2" />
-     <Folder Include="Assets\Rocks and Boulders 2\Shaders" />
-     <Folder Include="Assets\AllSkyFree\Epic_GloriousPink" />
-     <Folder Include="Assets\Rocks and Boulders 2\Rocks\Source\Textures" />
-     <Folder Include="Assets\AllSkyFree\Cartoon Base NightSky" />
-     <Folder Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\Prefabs" />
-     <Folder Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\Sources" />
-     <Folder Include="Assets\Rocks and Boulders 2\Rocks\Source\Materials" />
+     <None Include="Assets\Env\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\Includes\CTI_TranslucentLighting_301.cginc" />
+     <Folder Include="Assets\Env\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Default Components\Resources" />
+     <Folder Include="Assets\Env\Calm Water\Demo" />
+     <None Include="Assets\Env\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\CTI_LOD_Bark_301.shader" />
+     <None Include="Assets\Env\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Resources\CTI_Internal-DeferredReflections.shader" />
+     <Folder Include="Assets\Env\Conifers [BOTD]\Render Pipeline Support\Built-in RP" />
+     <Folder Include="Assets\Env\AllSkyFree" />
+     <None Include="Assets\Env\Calm Water\Shaders\CalmWater - DX11 - DoubleSided.shader" />
+     <Folder Include="Assets\Env\Calm Water\Demo\Animation" />
+     <Folder Include="Assets\Env\Conifers [BOTD]" />
+     <Folder Include="Assets\Env\Conifers [BOTD]\Shared Sources\Textures" />
+     <None Include="Assets\Env\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\Includes\CTI_indirect.cginc" />
+     <Folder Include="Assets\Env\ADG_Textures\ground_vol1\ground6" />
+     <Folder Include="Assets\Env\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components" />
+     <Folder Include="Assets\Env\AllSkyFree\Space_AnotherPlanet" />
+     <None Include="Assets\Env\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\CTI_LOD_Leaves_301.shader" />
+     <Folder Include="Assets\Env\Rocks and Boulders 2\Demo" />
+     <Folder Include="Assets\Env\ADG_Textures\ground_vol1\ground4" />
+     <Folder Include="Assets\Env\Calm Water\Demo\FBX\Terrain\Textures" />
+     <Folder Include="Assets\Env\Rocks and Boulders 2\Rocks\Prefabs_snow" />
+     <None Include="Assets\Env\Grass Pack\Shaders\Grass_Wind.shader" />
+     <Folder Include="Assets\Env\Calm Water\Scripts" />
+     <Folder Include="Assets\Env\Calm Water\Demo\Scenes" />
+     <Folder Include="Assets\Env\Grass Pack\Scenes" />
+     <Folder Include="Assets\Env\_TerrainAutoUpgrade" />
+     <Folder Include="Assets\Env\ADG_Textures" />
+     <Folder Include="Assets\Env\Grass Pack\Prefabs" />
+     <Folder Include="Assets\Env\ADG_Textures\ground_vol1\ground7" />
+     <Folder Include="Assets\Env\GrassFlowers\Textures\GrassFlowers" />
+     <Folder Include="Assets\Env\Conifers [BOTD]\Shared Sources\Meshes" />
+     <Folder Include="Assets\Env\ADG_Textures\Demo" />
+     <Folder Include="Assets\Env\Calm Water\Demo\FBX" />
+     <Folder Include="Assets\Env\ADG_Textures\ground_vol1\ground13" />
+     <Folder Include="Assets\Env\Grass Pack" />
+     <Folder Include="Assets\Env\Conifers [BOTD]\Render Pipeline Support\Built-in RP\Sources\Materials" />
+     <Folder Include="Assets\Env\Conifers [BOTD]\Render Pipeline Support\Built-in RP\Demo" />
+     <Folder Include="Assets\Env\Conifers [BOTD]\Shared Sources\Textures\Billboards\Billboard Tall" />
+     <None Include="Assets\Env\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\Includes\CTI_Builtin4xTreeLibraryTumbling_301.cginc" />
+     <None Include="Assets\Env\Grass And Flowers Pack 1\Example Scene\Skyboxes\_skybox info.txt" />
+     <Folder Include="Assets\Env\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Resources" />
+     <Folder Include="Assets\Env\Grass And Flowers Pack 1\Bush" />
+     <Folder Include="Assets\Env\ADG_Textures\ground_vol1\ground12" />
+     <Folder Include="Assets\Env\Rocks and Boulders 2" />
+     <Folder Include="Assets\Env\Rocks and Boulders 2\Shaders" />
+     <Folder Include="Assets\Env\AllSkyFree\Epic_GloriousPink" />
+     <Folder Include="Assets\Env\Rocks and Boulders 2\Rocks\Source\Textures" />
+     <Folder Include="Assets\Env\AllSkyFree\Cartoon Base NightSky" />
+     <Folder Include="Assets\Env\Conifers [BOTD]\Render Pipeline Support\Built-in RP\Prefabs" />
+     <Folder Include="Assets\Env\GrassFlowers\Demo\DemoGrassFlowers" />
+     <Folder Include="Assets\Env\Conifers [BOTD]\Render Pipeline Support\Built-in RP\Sources" />
+     <Folder Include="Assets\Env\Rocks and Boulders 2\Rocks\Source\Materials" />
      <Folder Include="Assets\Scenes\SampleScene" />
-     <Folder Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\Includes" />
-     <Folder Include="Assets\Grass And Flowers Pack 1\Example Scene" />
-     <Folder Include="Assets\AllSkyFree\Epic_BlueSunset" />
-     <Folder Include="Assets\AllSkyFree\Deep Dusk" />
-     <Folder Include="Assets\Rocks and Boulders 2\Rocks\Prefabs" />
-     <Folder Include="Assets\Grass And Flowers Pack 1\Example Scene\Skyboxes" />
-     <Folder Include="Assets\Conifers [BOTD]\Shared Sources\Textures\Billboards" />
-     <Folder Include="Assets\ADG_Textures\ground_vol1" />
-     <Folder Include="Assets\AllSkyFree\Cartoon Base BlueSky" />
+     <None Include="Assets\Env\Calm Water\Shaders\CalmWater - DX11.shader" />
+     <Folder Include="Assets\Env\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\Includes" />
+     <Folder Include="Assets\Env\Grass And Flowers Pack 1\Example Scene" />
+     <Folder Include="Assets\Env\AllSkyFree\Epic_BlueSunset" />
+     <Folder Include="Assets\Env\AllSkyFree\Deep Dusk" />
+     <Folder Include="Assets\Env\Rocks and Boulders 2\Rocks\Prefabs" />
+     <Folder Include="Assets\Env\Calm Water\Demo\FX" />
+     <Folder Include="Assets\Env\Grass And Flowers Pack 1\Example Scene\Skyboxes" />
+     <Folder Include="Assets\Env\Conifers [BOTD]\Shared Sources\Textures\Billboards" />
+     <Folder Include="Assets\Env\ADG_Textures\ground_vol1" />
+     <Folder Include="Assets\Env\AllSkyFree\Cartoon Base BlueSky" />
      <Folder Include="Assets\Textures" />
-     <Folder Include="Assets\Conifers [BOTD]\Render Pipeline Support" />
+     <Folder Include="Assets\Env\Calm Water\Demo\Prefabs" />
+     <Folder Include="Assets\Env\Conifers [BOTD]\Render Pipeline Support" />
      <Folder Include="Assets\Scripts" />
      <Reference Include="UnityEngine">
      <HintPath>D:\Unity\Hub\Editor\2022.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
@@ -778,11 +840,26 @@
      <Reference Include="System.Xml.Serialization">
      <HintPath>D:\Unity\Hub\Editor\2022.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+     <HintPath>D:\ShrekTheGame\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.EditorCoroutines.Editor">
      <HintPath>D:\ShrekTheGame\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.RenderPipelines.Core.Runtime">
+     <HintPath>D:\ShrekTheGame\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+     <HintPath>D:\ShrekTheGame\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.Postprocessing.Runtime">
      <HintPath>D:\ShrekTheGame\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Burst.Editor">
+     <HintPath>D:\ShrekTheGame\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Burst">
+     <HintPath>D:\ShrekTheGame\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
      </Reference>
      <Reference Include="Unity.PlasticSCM.Editor">
      <HintPath>D:\ShrekTheGame\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
@@ -793,6 +870,9 @@
      <Reference Include="Unity.VisualScripting.Shared.Editor">
      <HintPath>D:\ShrekTheGame\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.ShaderGraph.Editor">
+     <HintPath>D:\ShrekTheGame\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.VisualStudio.Editor">
      <HintPath>D:\ShrekTheGame\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
      </Reference>
@@ -802,20 +882,29 @@
      <Reference Include="Unity.VisualScripting.Core">
      <HintPath>D:\ShrekTheGame\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
      </Reference>
-     <Reference Include="UnityEngine.UI">
-     <HintPath>D:\ShrekTheGame\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-     </Reference>
      <Reference Include="Unity.VisualScripting.Core.Editor">
      <HintPath>D:\ShrekTheGame\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Rider.Editor">
      <HintPath>D:\ShrekTheGame\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="UnityEngine.UI">
+     <HintPath>D:\ShrekTheGame\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Core.Editor">
+     <HintPath>D:\ShrekTheGame\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.VisualScripting.Flow">
      <HintPath>D:\ShrekTheGame\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Flow.Editor">
      <HintPath>D:\ShrekTheGame\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Mathematics.Editor">
+     <HintPath>D:\ShrekTheGame\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+     <HintPath>D:\ShrekTheGame\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Timeline">
      <HintPath>D:\ShrekTheGame\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
@@ -835,6 +924,9 @@
      <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
      <HintPath>D:\ShrekTheGame\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+     <HintPath>D:\ShrekTheGame\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.TestTools.CodeCoverage.Editor">
      <HintPath>D:\ShrekTheGame\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
      </Reference>
@@ -847,17 +939,32 @@
      <Reference Include="Unity.VisualScripting.State.Editor">
      <HintPath>D:\ShrekTheGame\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="PPv2URPConverters">
+     <HintPath>D:\ShrekTheGame\Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Mathematics">
+     <HintPath>D:\ShrekTheGame\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.TextMeshPro">
      <HintPath>D:\ShrekTheGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TextMeshPro.Editor">
      <HintPath>D:\ShrekTheGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.Searcher.Editor">
+     <HintPath>D:\ShrekTheGame\Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+     <HintPath>D:\ShrekTheGame\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.VisualScripting.State">
      <HintPath>D:\ShrekTheGame\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VSCode.Editor">
      <HintPath>D:\ShrekTheGame\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Universal.Editor">
+     <HintPath>D:\ShrekTheGame\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>

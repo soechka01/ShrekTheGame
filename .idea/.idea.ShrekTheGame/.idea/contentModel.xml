@@ -45,6 +45,65 @@
         <e p="Animations" t="Include">
           <e p="Locomotion" t="Include" />
         </e>
+        <e p="Calm Water" t="Include">
+          <e p="Demo" t="Include">
+            <e p="Animation" t="Include" />
+            <e p="FBX" t="Include">
+              <e p="Materials" t="Include" />
+              <e p="PillarWood" t="Include">
+                <e p="Materials" t="Include" />
+              </e>
+              <e p="Terrain" t="Include">
+                <e p="Materials" t="Include" />
+                <e p="Textures" t="Include" />
+              </e>
+            </e>
+            <e p="FX" t="Include">
+              <e p="LensFlare" t="Include" />
+            </e>
+            <e p="Materials" t="Include" />
+            <e p="Prefabs" t="Include" />
+            <e p="Scenes" t="Include">
+              <e p="Island" t="Include" />
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="MaterialSwitcher.cs" t="Include" />
+              <e p="MouseOrbit.cs" t="Include" />
+              <e p="Rotater.cs" t="Include" />
+              <e p="SceneSwitcher.cs" t="Include" />
+            </e>
+            <e p="Skyboxes" t="Include">
+              <e p="Sunny3" t="Include" />
+            </e>
+            <e p="Textures" t="Include" />
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="CameraDepthMode.cs" t="Include" />
+            <e p="Editor" t="Include">
+              <e p="CalmWaterInspector.cs" t="Include" />
+              <e p="CreatePlane.cs" t="Include" />
+            </e>
+            <e p="ImageEffect" t="Include">
+              <e p="FogControl.cs" t="Include" />
+              <e p="Resources" t="Include">
+                <e p="UnderWaterFog.shader" t="Include" />
+              </e>
+              <e p="UnderWaterFog.cs" t="Include" />
+            </e>
+            <e p="MirrorReflection.cs" t="Include" />
+            <e p="Resources" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="CalmWater - DoubleSided.shader" t="Include" />
+            <e p="CalmWater - DX11 - DoubleSided.shader" t="Include" />
+            <e p="CalmWater - DX11.shader" t="Include" />
+            <e p="CalmWater - SingleSided.shader" t="Include" />
+            <e p="CalmWater.cginc" t="Include" />
+            <e p="CalmWater_Helper.cginc" t="Include" />
+            <e p="ProjectorCaustics.shader" t="Include" />
+          </e>
+          <e p="WARNING - UPDATING WILL BREAK YOUR MATERIALS.txt" t="Include" />
+        </e>
         <e p="Conifers [BOTD]" t="Include">
           <e p="Conifers [BOTD] URP Readme.txt" t="Include" />
           <e p="Getting started.txt" t="Include" />
@@ -117,8 +176,47 @@
           <e p="Ground Textures" t="Include" />
           <e p="Small Tree" t="Include" />
         </e>
-        <e p="Models" t="Include" />
-        <e p="ResetBool.cs" t="Include" />
+        <e p="Grass Pack" t="Include">
+          <e p="Materials" t="Include" />
+          <e p="Materials OLD" t="Include" />
+          <e p="Meshes" t="Include" />
+          <e p="Prefabs" t="Include" />
+          <e p="Scenes" t="Include" />
+          <e p="Shaders" t="Include">
+            <e p="Grass_Wind.shader" t="Include" />
+          </e>
+          <e p="Textures" t="Include" />
+        </e>
+        <e p="GrassFlowers" t="Include">
+          <e p="Demo" t="Include">
+            <e p="DemoGrassFlowers" t="Include" />
+          </e>
+          <e p="Textures" t="Include">
+            <e p="GrassFlowers" t="Include" />
+            <e p="Ground" t="Include" />
+          </e>
+        </e>
+        <e p="IgniteCoders" t="Include">
+          <e p="Simple Water Shader" t="Include">
+            <e p="Info" t="Include">
+              <e p="Icons" t="Include" />
+              <e p="Scripts" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="ReadmeEditor.cs" t="Include" />
+                </e>
+                <e p="Readme.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Prefabs" t="Include" />
+            <e p="Resources" t="Include">
+              <e p="WaterReflection.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Models" t="Include">
+          <e p="Textures" t="Include" />
+          <e p="textures2" t="Include" />
+        </e>
         <e p="Rocks and Boulders 2" t="Include">
           <e p="Demo" t="Include" />
           <e p="Rocks" t="Include">
@@ -150,7 +248,10 @@
           <e p="PlayerController.cs" t="Include" />
           <e p="PlayerControls.cs" t="Include" />
           <e p="PlayerLocomotion.cs" t="Include" />
+          <e p="ResetBool.cs" t="Include" />
+          <e p="WaterTeleport.cs" t="Include" />
         </e>
+        <e p="SimpleJump.cs" t="Include" />
         <e p="Textures" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive" />
